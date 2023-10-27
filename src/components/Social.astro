@@ -1,0 +1,5 @@
+---
+// @ts-ignore
+const { platform, username } = Astro.props;
+---
+<div class="flex justify-around"><a href={`https://www.${platform}.com/${username}`}>{platform}</a></div>
